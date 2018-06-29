@@ -1,4 +1,21 @@
 {
+<<<<<<< HEAD
+  "name": "yelp_test",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "yelp-api": "^1.0.3",
+    "yelp-fusion": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+=======
   "name": "yelp",
   "version": "0.1.0",
   "private": true,
@@ -20,4 +37,5 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:8080/"
+>>>>>>> 1021a5698234f822f90154512de682a8f9129bd7
 }
