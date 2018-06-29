@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "yelp_test",
   "version": "1.0.0",
   "scripts": {
@@ -14,4 +15,26 @@
   "devDependencies": {
     "concurrently": "^3.5.0"
   }
+=======
+  "name": "yelp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "yelp-fusion": "^2.0.3",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080/"
+>>>>>>> 1021a5698234f822f90154512de682a8f9129bd7
 }

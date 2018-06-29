@@ -1,5 +1,6 @@
 const express = require('express');
 const yelp = require('yelp-fusion');
+
 const app = express();
 const port = process.env.PORT || 5000;
 let apiKey = 'ynSi1puYiRrU5pUglwyhsAJqELqZcHgwRpOVGYKfPmtcvL6LPeyQ7spfigy7-pJlxOn12_wmNB-830S0NW5PF1aVH5jTEJ8gLi8zEgIrgQdyi1_ktTfrfzKPa9YzW3Yx';
@@ -24,6 +25,7 @@ app.get('/api', (req, res) => {
   console.log('restaurantData', restaurantData);
 
    res.send(restaurantData);
+
  }).catch(e => {
    console.log(e);
  });
@@ -34,3 +36,4 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 
 //hello
+
